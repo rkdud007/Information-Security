@@ -2,18 +2,18 @@
 
 Implementing basic encryption / decryption methods in Rust 🦀
 
-### TODO
-
 ### Classical Encryption Techniques
+
+can run with `cargo test -p cipher`
 
 ### Substitution Encryption
 
-- [ ] Caesar Cipher
+- [x] Caesar Cipher
 - [ ] Monoalphabetic Cipher
 - [ ] Playfair Cipher
 - [ ] Hill Cipher
 - [ ] Polyaphabetic Cipher
-- [ ] Vigenère Cipher
+- [x] Vigenère Cipher
 - [ ] Autokey Cipher
 - [ ] Vernam Cipher
 - [ ] One-Time Pad
