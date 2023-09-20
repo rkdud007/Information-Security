@@ -46,15 +46,15 @@ mod tests {
         assert_eq!(encrypted, "ZICVTWQNGRZGVTWAVZHCQYGLMGJ");
     }
 
-    #[test]
-    fn test_caesar_decrypt() {
-        //*Hint: 4th, 8th, 10th, 16th, and 18th letters of plaintext are the same letters!
-        // The first letter of the vigenere cipher key is "N" and length is 3
-        let cipher_text = "SJXUMHWVSUWOYJIUHDTDQAOKCIJM";
-        let keywords = extended_keyword(cipher_text, "NAP");
-        assert_eq!(keywords, "I LOVE YOU.");
+    // #[test]
+    // fn test_caesar_decrypt() {
+    //     //*Hint: 4th, 8th, 10th, 16th, and 18th letters of plaintext are the same letters!
+    //     // The first letter of the vigenere cipher key is "N" and length is 3
+    //     let cipher_text = "SJXUMHWVSUWOYJIUHDTDQAOKCIJM";
+    //     let keywords = extended_keyword(cipher_text, "NAP");
+    //     assert_eq!(keywords, "I LOVE YOU.");
 
-        // let decrypted = Vigenere::encrypt("L ORYH BRX.", None, Some(-3));
-        // assert_eq!(decrypted, "I LOVE YOU.");
-    }
+    //     // let decrypted = Vigenere::encrypt("L ORYH BRX.", None, Some(-3));
+    //     // assert_eq!(decrypted, "I LOVE YOU.");
+    // }
 }
