@@ -1,3 +1,4 @@
+pub mod autokey;
 mod caesar;
 mod vigenere;
 
