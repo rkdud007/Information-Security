@@ -1,0 +1,5 @@
+n: 6
+Initial key: [1, 0, 1, 1, 1, 0]
+Coefficients: [1, 0, 0, 0, 0, 1]
+Decrypted plaintext: THEMERITOFANACTIONLIESINFINISHINGITTOTHEEND
+Number of symmetric coefficient sets: 30

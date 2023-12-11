@@ -1,5 +1,10 @@
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [workspace]
-members = ["crates/cipher", "crates/example"]
+members = [
+    "crates/cipher",
+    "crates/example",
+    "crates/example2",
+    "crates/project2",
+]
 
 [workspace.package]
